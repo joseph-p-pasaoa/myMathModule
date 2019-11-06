@@ -5,11 +5,14 @@
   Feel free to use it for you basic math needs.
 */
 
-const multiply = require('./mul.js')
+const sum = require('./sum');
+const mul = require('./mul.js');
 
 const Math = {
   PI: 3.141592653589793, // Mathematical constant defined as the ratio of a circle's circumference to its diameter.
-  multiply: multiply
+  sum: sum,
+  mul: mul
 }
+
 
 module.exports = Math
